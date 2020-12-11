@@ -1,0 +1,62 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+body {
+  background-color: #161616;
+  overflow: hidden;
+}
+
+#snow-svg {
+  position: absolute;
+  bottom: -35%;
+  left: -20%;
+  -webkit-animation: rise 57s linear forwards;
+          animation: rise 57s linear forwards;
+  -webkit-animation-delay: 3000;
+          animation-delay: 3000;
+}
+
+@-webkit-keyframes rise {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  100% {
+    -webkit-transform: translateY(-35%);
+            transform: translateY(-35%);
+  }
+}
+
+@keyframes rise {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  100% {
+    -webkit-transform: translateY(-35%);
+            transform: translateY(-35%);
+  }
+}
+
+#lamp {
+  width: 14%;
+  position: absolute;
+  bottom: 1%;
+  right: 17%;
+  z-index: -10;
+}
+/*# sourceMappingURL=style.css.map */
